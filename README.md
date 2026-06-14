@@ -376,7 +376,6 @@ docker compose logs odysseus
 
 ```
 
-```
 
 ### File 3: `CONFIGURATION.md`
 ```markdown
@@ -400,7 +399,6 @@ To bridge your Gmail account with Odysseus, use these server values:
 * **SMTP Server:** `smtp.gmail.com` | **Port:** `465` | **Security Profile:** `SSL`
 * **Password Parameter:** Use a unique 16-character Google App Password (do not use your regular account login password).
 
-```
 
 ### File 4: `TROUBLESHOOTING.md`
 ```markdown
@@ -426,7 +424,6 @@ cd C:\Users\$env:USERNAME\Downloads
 
 ```
 
-```
 
 ---
 
@@ -447,5 +444,3 @@ cd C:\Users\$env:USERNAME\Downloads
 To make this documentation 100% complete, the following system specifications should be verified:
 1.  **Laptop Hardware Profile:** Confirm your laptop's exact graphics card configuration (e.g., whether it has an integrated Intel chip or an unrecognized dedicated GPU) to determine if we can safely remove the slow CPU processing flags.
 2.  **Odysseus Build Version Details:** Keep track of your specific deployment's commit hash to ensure long-term tool compatibility as the open-source platform updates.
-
-```
